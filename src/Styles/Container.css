@@ -1,0 +1,100 @@
+.container{
+    background-color: #e6e5e4;
+    padding: 33vh;
+    position: relative;
+}
+
+.container-left img{
+    width: 24vw;
+    top: -79px;
+    left: 77px;
+    position: absolute;
+}
+
+.content{
+    /* background-color: red; */
+    /* border: 10px solid black; */
+    position: absolute;
+    right: 30rem;
+    top: 68px;
+    width: 451px;
+}
+
+.text{
+    font-family: kanit;
+    font-weight: 300;
+}
+
+.text h1{
+    font-size: 50px;
+}
+  
+/* Button */
+.btn {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 20px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+  
+.btn:hover {
+    background-color: #333;
+}
+
+/* Circle container */
+.circle {
+    position: absolute;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    top: 330px;
+    right: 24rem;
+  }
+  
+  /* Arrows */
+  .arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    user-select: none;
+    background-color: #000;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Left arrow */
+  .arrow.left {
+    left: 20px;
+    background-color: white;
+    color: #000;
+  }
+  
+  /* Right arrow */
+  .arrow.right {
+    right: 20px;
+  }
+  
+  /* Hover effect */
+  .arrow:hover {
+    color: #00bcd4;
+  }
+
+  .container-right img{
+    width: 18vw;
+    top: 22px;
+    right: 77px;
+    position: absolute;
+}
