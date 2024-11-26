@@ -1,12 +1,6 @@
-.container{
-    background-color: #e6e5e4;
-    padding: 33vh;
-    position: relative;
-}
-
 .container-left img{
     width: 24vw;
-    top: -79px;
+    top: -87px;
     left: 77px;
     position: absolute;
 }
@@ -21,12 +15,13 @@
 }
 
 .text{
-    font-family: kanit;
+    font-family: 'kanit';
     font-weight: 300;
+    letter-spacing: 5px;
 }
 
 .text h1{
-    font-size: 50px;
+    font-size: 40px;
 }
   
 /* Button */
@@ -46,7 +41,7 @@
 }
   
 .btn:hover {
-    background-color: #333;
+  background-color: #333;
 }
 
 /* Circle container */
@@ -55,9 +50,9 @@
     color: #fff;
     font-size: 24px;
     font-weight: bold;
-    top: 330px;
-    right: 24rem;
-  }
+    top: 350px;
+    right: 54rem;
+}
   
   /* Arrows */
   .arrow {
@@ -94,7 +89,86 @@
 
   .container-right img{
     width: 18vw;
-    top: 22px;
+    top: 17px;
     right: 77px;
     position: absolute;
+}
+
+.banner {
+  width: 100%;
+  height: 65vh; /* Full screen height */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f8d7da; /* Example background */
+  box-sizing: border-box;
+  padding: 20px;
+  position: relative;
+}
+
+.content {
+  flex: 1 1 50%;
+  max-width: 600px;
+}
+
+.content p {
+  /* font-size: 16px; */
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.content h1 {
+  /* font-size: 36px; */
+  margin: 10px 0;
+}
+
+.content a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #000;
+  color: #fff;
+  padding: 12px 25px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+
+
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .banner {
+    flex-direction: column;
+    text-align: center;
+    height: 39vh;
+    width: 167%;
+  }
+
+  .content{
+    right: 16rem;
+    top: 60px;
+  }
+
+  .container-left img{
+    width: 56vw;
+    top: -65px;
+    left: 14px;
+  }
+  
+  .text h1{
+    font-size: 32px;
+  }
+
+  .circle {
+    right: 31rem;
+  }
+
+  .btn {
+    margin-right: 20px;
+  }
+
+  .container-right img{
+    width: 43vw;
+  }
 }
