@@ -11,7 +11,12 @@ export default function Container() {
         <div className="text">
           <p>New Modern Fashion Styles</p>
           <h1>Exclusive Winter Collection 2022</h1>
-          <button className='btn'>Shop Now</button>
+          {/* <button className='btn'>Shop Now</button> */}
+          <button class="pushable">
+            <span class="shadow"></span>
+            <span class="edge"></span>
+            <span class="front">Shop Now</span>
+          </button>
         </div>
       </div>
 
