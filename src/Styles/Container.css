@@ -243,8 +243,8 @@
   align-items: center;
   justify-content: space-between;
   padding: 50px;
-  /* background-color: #f8f8f8; */
-  background-color: red;
+  background-color: #f8f8f8;
+  /* background-color: red; */
   height: 63vh;
   box-sizing: border-box;
 }
