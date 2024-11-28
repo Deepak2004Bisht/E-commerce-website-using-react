@@ -198,22 +198,22 @@
 
 
 /* Responsive Design */
-@media (max-width: 600px) {
+@media (max-width: 600px) and (min-width: 400px) {
   .banner {
     flex-direction: column;
     text-align: center;
     height: 39vh;
-    width: 167%;
+    width: 240%;
   }
 
   .content{
     right: 16rem;
-    top: 60px;
+    top: 18px;
   }
 
   .container-left img{
     width: 56vw;
-    top: -65px;
+    top: 6px;
     left: 14px;
   }
   
@@ -231,6 +231,7 @@
 
   .container-right img{
     width: 43vw;
+    top: 81px;
   }
 }
 
