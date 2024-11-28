@@ -371,6 +371,7 @@
   .hero-section {
       padding: 20px;
       width: 227%;
+      height: 50vh;
   }
 
   .images-content img{
