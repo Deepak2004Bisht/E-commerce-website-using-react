@@ -29,6 +29,7 @@ export default function Clothe() {
               </span>
             </div>
           </div>
+
         </div>
       </div>
   </>

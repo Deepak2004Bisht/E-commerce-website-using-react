@@ -53,4 +53,13 @@
     color: #060606; /* Hover effect */
     cursor: pointer;
 }
-  
+
+
+
+
+/* Responsive design */
+@media (max-width: 900px){
+    .nav-list{
+        padding: 0px 90px 0px 90px;
+    }
+}  

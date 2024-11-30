@@ -1,0 +1,23 @@
+
+.inner{
+    padding: 10px 450px 30px 450px;
+}
+
+.inner h1{
+    text-align: center;
+    justify-content: center;
+    display: flex
+}
+
+.inner .para{
+    text-align: center;
+    justify-content: center;
+    display: flex
+}
+
+.img-flex{
+    /* display: flex; */
+    padding: 10px 150px 1px 150px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+}
