@@ -145,11 +145,13 @@
 }
 
 
+
 @media (max-width: 550px) {
   .hero-section{
     width: 200%;
   }
 }
+
 
 
 @media (max-width: 510px) {
