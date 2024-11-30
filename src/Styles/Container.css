@@ -131,6 +131,12 @@
 }
 
 
+@media (max-width: 620px) {
+  .hero-section{
+    width: 178%;
+  }
+}
+
 
 @media (max-width: 600px) {
   .hero-section{
@@ -139,10 +145,14 @@
 }
 
 
+@media (max-width: 550px) {
+  .hero-section{
+    width: 200%;
+  }
+}
 
 
-
-@media (max-width: 500px) {
+@media (max-width: 510px) {
   .hero-section {
       padding: 20px;
       width: 227%;
@@ -170,8 +180,22 @@
 }
 
 
-@media (max-width: 450px){
+@media (max-width: 475px){
   .hero-section{
     width: 248%;
+  }
+}
+
+
+@media (max-width: 430px){
+  .hero-section{
+    width: 275%;
+  }
+}
+
+
+@media (max-width: 370px){
+  .hero-section{
+    width: 310%;
   }
 }
