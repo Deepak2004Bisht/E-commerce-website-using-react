@@ -97,7 +97,25 @@
   }
 
 
+
+
+
   /* Mobile Responsive design */
+  @media (min-width: 1400px){
+    .card-flex{
+      margin-left: 141px; 
+    }
+  }
+
+
+  @media (min-width: 1650px){
+    .card-flex{
+      margin-left: 212px; 
+    }
+  }
+
+
+
   @media (max-width: 1024px){
     .cards{
       padding: 10px 10px 10px 181px;
@@ -110,19 +128,22 @@
     .cards{
       padding: 10px 10px 10px 181px;
     }
+
+    .card-flex{
+      margin-left: 141px; 
+    }
   }
   
   
   @media (max-width: 768px){
-  
+    .card-flex{
+      margin-left: 40px; 
+    }
   }
+
   
   @media (max-width: 600px) {
     .cards{
       padding: 10px 10px 10px 181px;
     }
-  }
-
-  @media (max-width: 480px){
-
   }

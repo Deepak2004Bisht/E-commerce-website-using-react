@@ -15,7 +15,7 @@
         "images": "6.png",
         "name": "Black-Brown",
         "title": "Small Faux Leather Water Resistant Backpack",
-        "price": "1,299.00"
+        "price": "₹1,299.00"
     },
     {
         "images": "7.png",
@@ -33,7 +33,7 @@
         "images": "9.png",
         "name": "Black",
         "title": "Joggers for Men for Running",
-        "price": "358.00"
+        "price": "₹358.00"
     },
     {
         "images": "10.png",
@@ -43,8 +43,33 @@
     },
     {
         "images": "11.png",
-        "name": "",
-        "title": "",
-        "price": "₹"
+        "name": "Kurta",
+        "title": "Women Kurta and Pant Set With Dupatta",
+        "price": "₹599.00"
+    },
+    {
+        "images": "12.png",
+        "name": "Maxi",
+        "title": "Women's Corduroy Empire Waist Maxi Cocktail dress",
+        "price": "₹419.00"
+    },
+    {
+        "images": "13.png",
+        "name": "Men's Night Dress",
+        "title": "Sleepwear Loungewear Shirt & Shorts Combo",
+        "price": "₹468.00"
+    },
+    {
+        "images": "14.png",
+        "name": "Sandals",
+        "title": "Women's Fashion Sandals | For Wedding Occasion",
+        "price": "₹735.00"
+    },
+    {
+        "images": "15.png",
+        "name": "Sneakers",
+        "title": "Latest Sneakers Cum Sports and Running Shoes for Men",
+        "price": "₹499.00"
     }
+
 ]

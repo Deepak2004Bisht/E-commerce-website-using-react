@@ -117,28 +117,15 @@
 
 
 /* Responsive Design */
-@media (max-width: 1024px){
-
+@media (max-width: 900px){  
+  .product-cards{
+    padding: 10px 75px 10px 30px;
+  }
 }
 
 
-
-@media (max-width: 900px){
-
-}
-
-
-@media (max-width: 768px){
-
-}
-
-
-
-@media (max-width: 600px){
-
-}
-
-
-@media (max-width: 480px){
-
+@media (max-width: 780px){
+  .product-cards{
+    padding: 10px 75px 10px 30px;
+  }
 }

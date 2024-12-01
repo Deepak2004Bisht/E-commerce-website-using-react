@@ -16,10 +16,10 @@ export default function SellingProduct() {
 
   return (
     <div className='outer'>
-      <div className='inner'>
-        <h1>Best Selling Products</h1>
-        <p className='para'>There are many products of men's and women of this website</p>
-      </div>
+      <section class="best-selling-products">
+        <h2>Best Selling Products</h2>
+        <p>There are many products of men's and women of this website</p>
+      </section>
 
       <div className='img-flex'>
         {
