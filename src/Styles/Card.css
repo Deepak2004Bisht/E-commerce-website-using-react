@@ -39,47 +39,30 @@
     /* bottom: 100px; */
     background: #feffff;
     color: #0c0b0b;
-    height: 2.5em;
-    width: 60%;
+    height: 3.5em;
+    width: 70%;
     transition: all 80ms;
     font-weight: 600;
     text-transform: uppercase;
     opacity: 0;
   }
   
-  .product-card .title {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 0.9em;
-    position: absolute;
-    left: 0.625em;
-    bottom: 1.875em;
-    font-weight: 400;
-    color: #000;
-  }
   
-  .product-card .price {
-    font-size: 0.9em;
-    position: absolute;
-    left: 0.625em;
-    bottom: 0.625em;
-    color: #000;
-  }
-  
-  .product-card:hover::after {
+  /* .product-card:hover::after {
     bottom: 0;
     opacity: 1;
-  }
+  } */
   
-  .product-card:active {
+  /* .product-card:active {
     transform: scale(0.98);
-  }
+  } */
   
-  .product-card:active::after {
+  /* .product-card:active::after {
     content: "Added !";
     height: 3em;
     background-color: #907e7e;
     color: white;
-  }
+  } */
   
   .clothe-text {
     max-width: 148px;
@@ -112,6 +95,81 @@
   .product-cards b{
     font-size: 13px;
   }
+
+
+button {
+  position: relative;
+  overflow: hidden;
+  outline: none;
+  cursor: pointer;
+  border-radius: 0px;
+  border: none;
+  background-color: hsl(255deg 50% 40%);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  font-family: "Inter", sans-serif;
+}
+
+.default-btn {
+  background-image: linear-gradient(
+    90.1deg,
+    rgb(108, 121, 122) 0.2%,
+    rgb(58, 55, 69) 99.9%
+  );
+}
+
+.default-btn,
+.hover-btn {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 1em 3em;
+  border-radius: 0px;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+.hover-btn {
+  position: absolute;
+  inset: 0;
+  font-size: 16px;
+  padding: 1em 3em;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: rgb(162, 163, 166);
+  background: linear-gradient(
+    63deg,
+    rgb(73, 73, 74) 0%,
+    rgb(45, 44, 47) 100%
+  );
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(187, 186, 186, 0.3) 0px 3px 7px -3px;
+  transform: translate(0%, 100%);
+}
+
+.default-btn span {
+  color: hsl(0, 0%, 100%);
+}
+
+.hover-btn span {
+  color: hsl(0, 0%, 100%);
+}
+
+button:hover .default-btn {
+  transform: translate(0%, -100%);
+}
+
+button:hover .hover-btn {
+  transform: translate(0%, 0%);
+}
 
 
 

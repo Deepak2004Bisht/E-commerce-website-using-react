@@ -6,7 +6,7 @@ export default function Clothe() {
     <>
       <div className='card-flex'>
         <div className="cards">
-          <div className="card">
+          <div className="card-img">
             <div className="images">
               <span className="clothes-text">
                 <img src="../Images/1.png" alt="" />
@@ -14,7 +14,7 @@ export default function Clothe() {
             </div>
           </div>
 
-          <div className="card">
+          <div className="card-img two">
             <div className="images">
               <span className="clothes-text">
                 <img src="../Images/2.png" alt="" />
@@ -22,7 +22,7 @@ export default function Clothe() {
             </div>
           </div>
 
-          <div className="card">
+          <div className="card-img three">
             <div className="images">
               <span className="clothes-text">
                 <img src="../Images/3.png" alt="" />

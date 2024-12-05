@@ -6,7 +6,7 @@
   padding: 50px;
   background-color: #f8f8f8;
   /* background-color: red; */
-  height: 63vh;
+  height: 75vh;
   box-sizing: border-box;
 }
 
@@ -204,8 +204,28 @@
 }
 
 
+@media (max-width: 381px){
+  .hero-section{
+    width: 283%;
+  }
+}
+
 @media (max-width: 370px){
   .hero-section{
-    width: 310%;
+    width: 315%;
+  }
+}
+
+
+@media (max-width: 330px){
+  .hero-section{
+    width: 335%;
+  }
+}
+
+
+@media (max-width: 310px){
+  .hero-section{
+    width: 354%;
   }
 }

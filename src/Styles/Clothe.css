@@ -10,7 +10,7 @@
     margin-bottom: 30px;
 }
 
-.card {
+.card-img {
     /* display: inline-flex; */
     position: relative;
     width: 11.875em;
@@ -21,65 +21,71 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgb(227, 221, 221);
+    background: rgb(223, 220, 220);
     padding: 0.5em;
     padding-bottom: 3.4em;
     margin-left: 30px;
     margin-top: 50px;
   }
   
-  .card::after {
-    content: "Add to Cart";
+  .card-img::after {
+    content: "For Man's";
     padding-top: 1.25em;
     padding-left: 1.25em;
     position: absolute;
     /* left: 28px; */
     top: 150px;
     /* bottom: 100px; */
-    background: #f0f3f2;
+    background: #f0f3f2c7;
     color: #0c0b0b;
-    height: 2.5em;
-    width: 60%;
+    height: 3.5em;
+    width: 70%;
     transition: all 80ms;
     font-weight: 600;
     text-transform: uppercase;
-    opacity: 0;
+    opacity: 10;
   }
-  
-  .card .title {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 0.9em;
+
+  .card-img.two::after {
+    content: "Accessories";
+    padding-top: 1.25em;
+    padding-left: 1.25em;
     position: absolute;
-    left: 0.625em;
-    bottom: 1.875em;
-    font-weight: 400;
-    color: #000;
-  }
-  
-  .card .price {
-    font-size: 0.9em;
-    position: absolute;
-    left: 0.625em;
-    bottom: 0.625em;
-    color: #000;
-  }
-  
-  .card:hover::after {
-    bottom: 0;
-    opacity: 1;
-  }
-  
-  .card:active {
-    transform: scale(0.98);
-  }
-  
-  .card:active::after {
-    content: "Added !";
-    height: 3em;
-    background-color: #907e7e;
+    /* left: 28px; */
+    top: 150px;
+    /* bottom: 100px; */
+    /* background: #f0f3f2; */
+    /* color: #0c0b0b; */
+    background-color: #0c0b0bce;
     color: white;
+    height: 3.5em;
+    width: 70%;
+    transition: all 80ms;
+    font-weight: 500;
+    text-transform: uppercase;
+    opacity: 10;
   }
-  
+
+
+  .card-img.three::after {
+    content: "For Woman's";
+    padding-top: 1.25em;
+    padding-left: 1.25em;
+    position: absolute;
+    /* left: 28px; */
+    top: 150px;
+    /* bottom: 100px; */
+    background: #f0f3f2c7;
+    color: #0c0b0b;
+    height: 3.5em;
+    width: 75%;
+    transition: all 80ms;
+    font-weight: 500;
+    text-transform: uppercase;
+    opacity: 10;
+  }
+
+
   .clothes-text {
     max-width: 148px;
   }
