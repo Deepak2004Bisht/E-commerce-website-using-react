@@ -131,8 +131,14 @@
     }
   }
 
-
   @media (max-width: 910px){
+    .blog-container{
+      margin-left: 151px;
+    }
+  }
+
+
+  @media (max-width: 900px){
     .blog-container{
       margin-left: 339px;
     }

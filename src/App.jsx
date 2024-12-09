@@ -4,6 +4,8 @@ import Clothe from "./Components/Clothe";
 import SellingProduct from "./Components/SellingProduct";
 import Detail from "./Components/Detail";
 import Blog from "./Components/Blog";
+import Email from "./Components/Email";
+import Shop from "./Components/Shop";
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       <SellingProduct/>
       <Detail/>
       <Blog/>
+      <Email/>
+      <Shop/>
     </>
   );
 }
