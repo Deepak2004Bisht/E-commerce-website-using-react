@@ -1,0 +1,349 @@
+.footer-bg{
+    background-color: rgba(18, 14, 14, 0.883);
+    margin-top: 80px;
+}
+
+.footer{
+    display: flex;
+}
+
+.brand-name{
+    padding-top: 60px;
+    padding-left: 60px;
+}
+
+.brand-name h1{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.brand-name i{
+    color: rgba(211, 208, 208, 0.956);
+    font-size: 20px;
+    display: flex;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+.brand-name i:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.brand-name p{
+    color: rgb(215, 211, 211);
+    font-size: 10px;
+    padding-left: 15px;
+    letter-spacing: 1px;
+}
+
+.brand-name p:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.brand-name h3{
+    color: rgba(255, 255, 255, 0.89);
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.brand-name ul{
+    list-style: none;
+}
+
+.brand-name ul li{
+    color: rgba(215, 214, 214, 0.552);
+}
+
+.footer-bottom{
+    display: flex;
+}
+
+.wrapper {
+    display: inline-flex;
+    list-style: none;
+    /* height: 120px; */
+    /* width: 100%; */
+    /* padding-top: 40px; */
+    font-family: "Poppins", sans-serif;
+    /* justify-content: center; */
+  }
+  
+  .wrapper .icon {
+    position: relative;
+    background: #e6e1e1;
+    z-index: 0;
+    border-radius: 50%;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .wrapper .icon::after {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    z-index: -1;
+    border-radius: 50%;
+    top: 100%;
+  }
+  .wrapper .icon:hover:after {
+    animation: bg-pos 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55) 1 both;
+    animation-timing-function: ease-in-out;
+  }
+  
+  .wrapper .icon:hover {
+    color: #fff;
+    overflow: unset;
+    transition: color 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    animation: overflow-toggle 0.7s;
+  }
+  
+  .wrapper .tooltip {
+    position: absolute;
+    top: 0;
+    font-size: 14px;
+    background: #fff;
+    color: #fff;
+    padding: 5px 8px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .wrapper .tooltip::before {
+    position: absolute;
+    content: "";
+    height: 8px;
+    width: 8px;
+    background: #fff;
+    bottom: -3px;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+    transition: all 0.3s 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .wrapper .icon:hover .tooltip {
+    top: -45px;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+  
+  .wrapper .icon:hover span,
+  .wrapper .icon:hover .tooltip {
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+  }
+  .wrapper .facebook::after {
+    background-color: #1877f2;
+  }
+  .wrapper .twitter::after {
+    background-color: #1da1f2;
+  }
+  .wrapper .instagram::after {
+    background-color: #e4405f;
+  }
+  
+  .wrapper .facebook:hover .tooltip,
+  .wrapper .facebook:hover .tooltip::before {
+    background: #1877f2;
+    color: #fff;
+  }
+  
+  .wrapper .twitter:hover .tooltip,
+  .wrapper .twitter:hover .tooltip::before {
+    background: #1da1f2;
+    color: #fff;
+  }
+  
+  .wrapper .instagram:hover .tooltip,
+  .wrapper .instagram:hover .tooltip::before {
+    background: #e4405f;
+    color: #fff;
+  }
+  
+  @keyframes bg-pos {
+    0% {
+      top: 100%;
+    }
+    100% {
+      top: 0;
+    }
+  }
+  
+  @keyframes overflow-toggle {
+    0% {
+      overflow: hidden;
+    }
+    100% {
+      overflow: visible;
+    }
+  }
+  
+  .footer-bottom p{
+    padding-top: 20px;
+    padding-left: 150px;
+    color: rgb(152, 152, 152);
+  }
+
+  .footer-bottom i{
+    color: rgb(152, 152, 152);
+    font-size: 25px;
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-right: 30px;
+  }
+
+  .footer-bottom h2{
+    color: rgb(152, 152, 152);
+    font-size: 30px;
+    padding-top: 10px;
+    font-weight: 400;
+    padding-right: 30px;
+  }
+
+  .footer-bottom .ebay{
+    color: rgb(152, 152, 152);
+    font-size: 30px;
+    padding-top: 10px;
+    font-weight: 400;
+    /* padding-left: 100px; */
+  }
+
+
+  /* Responsive design */
+  @media (max-width: 1010px){
+    .footer-bottom p{
+        padding-top: 20px;
+        padding-left: 2px;
+        font-size: 12px;
+    }
+
+    .footer-bottom i{
+        font-size: 25px;
+        padding-top: 10px;
+        padding-left: 50px;
+        padding-right: 30px;
+    }
+  }
+
+
+  @media (max-width: 910px){
+    .footer-bg{
+      width: 107.8%;
+    }
+  }
+
+  @media (max-width: 900px){
+    .footer-bg{
+      width: 164%;
+    }
+
+    .footer{
+      position: relative;
+      left: 50px;
+      display: inline-flex;
+    }
+  }
+
+  @media (max-width: 700px){
+    .footer-bg{
+      width: 172%;
+    }
+  }
+
+  
+  @media (max-width: 620px){
+    .footer-bg{
+      width: 178%;
+    }
+  }
+
+  @media (max-width: 600px){
+    .footer-bg{
+      width: 190%;
+    }
+  }
+
+  @media (max-width: 550px){
+    .footer-bg{
+      width: 200%;
+    }
+  }
+
+  @media (max-width: 530px){
+    .footer-bg{
+      width: 207%;
+    }
+  }
+
+  @media (max-width: 515px){
+    .footer-bg{
+      width: 211%;
+    }
+  }
+
+  @media (max-width: 510px){
+    .footer-bg{
+      width: 230%;
+    }
+  }
+
+  @media (max-width: 470px){
+    .footer-bg{
+      width: 248%;
+    }
+  }
+
+  @media (max-width: 430px){
+    .footer-bg{
+      width: 274%;
+    }
+  }
+
+  @media (max-width: 390px){
+    .footer-bg{
+      width: 285%;
+    }
+  }
+
+  @media (max-width: 370px){
+    .footer-bg{
+      width: 315%;
+    }
+  }
+
+  @media (max-width: 360px){
+    .footer-bg{
+      width: 332%;
+    }
+  }
+
+  @media (max-width: 330px){
+    .footer-bg{
+      width: 355%;
+    }
+  }
+
+
+
+
+
+

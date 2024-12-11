@@ -6,6 +6,7 @@ import Detail from "./Components/Detail";
 import Blog from "./Components/Blog";
 import Email from "./Components/Email";
 import Shop from "./Components/Shop";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Blog/>
       <Email/>
       <Shop/>
+      <Footer/>
     </>
   );
 }
