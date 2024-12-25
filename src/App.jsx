@@ -1,26 +1,33 @@
-import Navbar from "./Components/Navbar";
-import Container from "./Components/Container";
-import Clothe from "./Components/Clothe";
-import SellingProduct from "./Components/SellingProduct";
-import Detail from "./Components/Detail";
-import Blog from "./Components/Blog";
-import Email from "./Components/Email";
-import Shop from "./Components/Shop";
-import Footer from "./Components/Footer";
+import Navbar from "./Components/Navbar/Navbar";
+import {BrowserRouter, Routes, Route} from "react-router-dom";
+import Shop from "./Pages/Shop";
+import ShopCategory from "./Pages/ShopCategory";
+import Product from "./Pages/Product";
+import Cart from "./Pages/Cart";
+import LoginSignup from "./Pages/LoginSignup";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
-    <>
+    <div>
+      <BrowserRouter>
       <Navbar/>
-      <Container/>
-      <Clothe/>
-      <SellingProduct/>
-      <Detail/>
-      <Blog/>
-      <Email/>
-      <Shop/>
+      <Routes>
+        <Route path='/' element={<Shop/>} />
+        <Route path='/mens' element={<ShopCategory category="men"/>} />
+        <Route path='/womens' element={<ShopCategory category="women"/>} />
+        <Route path='/kids' element={<ShopCategory category="kid"/>} />
+        <Route path="/product" element={<Product/>}>
+          <Route path=":productId" element={<Product/>} />
+        </Route>
+
+        <Route path='/cart' element={<Cart/>} />
+        <Route path='/login' element={<LoginSignup/>} />
+      </Routes>
+      
       <Footer/>
-    </>
+      </BrowserRouter>
+    </div>
   );
 }
 
