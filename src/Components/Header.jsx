@@ -607,7 +607,7 @@ export default function Header() {
                   </div>
                   {/*End Dropdown*/}
                 </li>
-                
+
                 <li className="nav-menu-item">
                   <a href="#">Blog</a>
                   {/*Dropdown*/}
@@ -800,7 +800,6 @@ export default function Header() {
               </ul>
             </div>
             {/*End Navigation Menu*/}
-
 
 
             {/*Nav Icons*/}
