@@ -13,7 +13,7 @@ export default function Section1() {
                         <div className="col-12">
                         <h1 className="breadcrumb-title">Man Clothing Fashion</h1>
                         <nav className="breadcrumb-link" onClick={() =>setMenu('home')}>
-                            <span><Link to="/"><a href="#">Home</a></Link></span>
+                            <span><Link to="/"><a href="#">Home{menu === "shop" ? <hr/>: <></>}</a></Link></span>
                             <span><Link to="/product_listing"><a>Categories</a></Link></span>
                             <span>Back In Stock Clothes</span>
                         </nav>

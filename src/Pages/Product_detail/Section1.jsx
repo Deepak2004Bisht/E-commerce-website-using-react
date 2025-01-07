@@ -1,3 +1,5 @@
+/* eslint-disable no-script-url */
+/* eslint-disable jsx-a11y/anchor-has-content */
 /* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState } from "react";
@@ -527,7 +529,7 @@ export default function Section1() {
                           <label>Your Rating</label>
                           <p className="stars selected">
                             <span>
-                              <a className="star-1" href="javascript:void(0)" />
+                              <a className="star-1" href="javascript:void(0)"/>
                               <a className="star-2" href="javascript:void(0)" />
                               <a className="star-3" href="javascript:void(0)" />
                               <a className="star-4" href="javascript:void(0)" />
