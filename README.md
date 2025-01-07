@@ -12,5 +12,5 @@ This is an e-commerce website built using React, styled for modern shopping expe
 • Checkout: Seamless shopping experience.<br>
 <h2>Feel free to visit the Ecommerce website</h2>
 <h3>Ecommerce website link here:-
-👉<a href="https://deepakbisht.netlify.app/" target="_blank">Link</a>
+👉<a href="https://ecommerceplatformusingreact.netlify.app/" target="_blank">Link</a>
 </h3>
