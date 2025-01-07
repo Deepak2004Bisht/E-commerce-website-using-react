@@ -39,7 +39,7 @@ export default function Header() {
             <div className={mobileordesktop === true ? "nav-menu show-on-mobile" : "nav-menu"}>
               <ul>
                 <li className="nav-menu-item" onClick={() => setMenu("home")}>
-                  <Link to='/'><a href="#">Home</a></Link>
+                  <Link to='/'><a href="#">Home{menu === "shop" ? <hr/>: <></>}</a></Link>
 
                   {/*Dropdown*/}
                   <div className="nav-dropdown col3-dropdown">

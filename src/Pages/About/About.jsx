@@ -24,7 +24,7 @@ export default function About() {
             <h1 className="breadcrumb-title">About Us</h1>
             <nav className="breadcrumb-link">
               <span onClick={() => setMenu("home")}>
-                <Link to="/"><a>Home</a></Link>
+                <Link to="/"><a>Home{menu === "shop" ? <hr/>: <></>}</a></Link>
               </span>
               <span>About Us</span>
             </nav>

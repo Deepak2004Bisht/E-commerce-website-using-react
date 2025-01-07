@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 /* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable jsx-a11y/anchor-has-content */
 /* eslint-disable jsx-a11y/anchor-is-valid */
@@ -28,7 +29,7 @@ export default function Blogsingle() {
                   <h1 className="breadcrumb-title">Blog Single</h1>
                   <nav className="breadcrumb-link">
                     <span onClick={() => setMenu("home")}>
-                      <Link to="/"><a href="home.html">Home</a></Link>
+                      <Link to="/"><a href="home.html">Home{menu === "shop" ? <hr/>: <></>}</a></Link>
                     </span>
                     <span>Blog</span>
                   </nav>
@@ -145,7 +146,7 @@ export default function Blogsingle() {
                     </div>
                   </div>
                   {/*End Blog Item*/}
-                  {/*Commenr Area*/}
+                  {/*Comment Area*/}
                   <div className="comments-area clearfix">
                     {/*Comments*/}
                     <div className="comments">

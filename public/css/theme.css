@@ -405,10 +405,6 @@ a {
         color: #333;
     }
 
-    a:focus {
-        /*color: inherit;*/
-    }
-
 img {
     outline: 0 none;
     max-width: 100%;
@@ -1402,10 +1398,6 @@ ul:last-child {
     transition: all .3s ease;
 }
 
-    .header.header--dark, .header.header--light {
-        /*position: absolute;*/
-    }
-
 .header-nav, .header-topbar, .searchbar-menu {
     padding-left: 25px;
     padding-right: 25px;
@@ -1727,10 +1719,6 @@ ul:last-child {
                 z-index: 0;
             }
 
-@media all and (max-width: 991px) {
-    .site-logo {
-    }
-}
 
 /*------------------------------------------------------------
   Navigation Menu
@@ -1949,11 +1937,6 @@ ul:last-child {
     }
 
 
-    .nav-dropdown ul li a:hover, .nav-dropdown-sub ul li a:hover,
-    .nav-dropdown ul li:hover > a, .nav-dropdown-sub ul li:hover > a {
-        /*color: #333;*/ /*Dropdown Link Hover Color*/
-    }
-
     .nav-dropdown ul li .dropdown-title {
         font-size: 14px;
         /*font-weight: 400;*/
@@ -2059,10 +2042,6 @@ ul:last-child {
     .nav-dropdown-sub {
         padding-top: 8px !important;
         padding-bottom: 8px !important;
-    }
-
-    .nav-dropdown {
-        /*margin-top: -6px;*/
     }
 
     .nav-dropdown, .nav-dropdown-sub {
@@ -3358,12 +3337,7 @@ ul:last-child {
             margin-top: 10px;
         }
 
-            .product-item .product-item-content .product-item-price .product-price-amount {
-            }
-
-            .product-item .product-item-content .product-item-price .product-price-currency-symbol {
-            }
-
+            
             .product-item .product-item-content .product-item-price del {
                 text-decoration: line-through;
                 opacity: 0.6;
@@ -3582,8 +3556,6 @@ ul:last-child {
     text-align: center;
 }
 
-    .categories-item .categories-caption:hover {
-    }
 
 .categories-item .categories-caption-middel {
     -webkit-transform: translate(-50%, -50%);
@@ -3706,9 +3678,7 @@ ul:last-child {
             -webkit-border-radius: 0 15px 0 0;
         }
 
-        .countdown > div .days {
-        }
-
+        
 /*------------------------------------------------------------*/
 /* Reviews Item */
 /*------------------------------------------------------------*/
@@ -3822,9 +3792,6 @@ ul:last-child {
     display: block;
     overflow: hidden;
 }
-
-    .blog-item .blog-item-image .blog-img-link {
-    }
 
     .blog-item .blog-item-image img {
         transition: all 350ms ease-out 0s;
@@ -4362,8 +4329,7 @@ ul:last-child {
         font-size: 12px;
     }
 
-.widget-area {
-}
+
 
     .widget-area .widget {
         border-bottom: 1px solid rgba(0,0,0,0.06);
@@ -5337,9 +5303,7 @@ label + .price-range-slider {
             -webkit-border-radius: 50%;
         }
 
-        .product-page-content .product-color-choose input[type="radio"] + label span {
-            /*border: 2px solid #FFFFFF;*/
-        }
+        
 
         .product-page-content .product-color-choose input[type="radio"]#red + label span {
             background-color: #C91524;
@@ -5360,9 +5324,7 @@ label + .price-range-slider {
             background-size: 15px;
         }
 /* Product Select Size */
-.product-select-size {
-    /*margin-bottom: 20px;*/
-}
+
 
     .product-select-size label {
         border: 1px solid rgba(0,0,0,0.08);
@@ -5644,8 +5606,7 @@ input.quantity[type=number]::-webkit-outer-spin-button {
                 background-color: #f6f6f6;
             }
 
-            .product-tab-Content-body .detail-table table tbody tr {
-            }
+            
 
             .product-tab-Content-body .detail-table table tbody th {
                 width: 150px;
@@ -5799,9 +5760,7 @@ input.quantity[type=number]::-webkit-outer-spin-button {
 /*------------------------------------------------------------*/
 
 /*Cart Page*/
-.cart-product-table-wrap {
-    /*margin-bottom: 30px;*/
-}
+
 
     .cart-product-table-wrap table {
         width: 100%;
@@ -6035,9 +5994,6 @@ form .lost_password {
     border: 0 none;
 }
 
-.blog-single .blog-item .blog-title {
-    /*margin-bottom:10px;*/
-}
 
 .blog-single .blog-item .blog-item-content .blog-description-content > p {
     margin-bottom: 15px;
