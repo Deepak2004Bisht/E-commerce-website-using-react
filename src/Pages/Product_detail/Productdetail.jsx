@@ -19,7 +19,7 @@ export default function Productdetail() {
                         <h1 className="breadcrumb-title">Man Clothing Fashion</h1>
                         <nav className="breadcrumb-link">
                             <span onClick={() => setMenu("home")}>
-                                <Link to="/"><a href="home.html">Home</a></Link>
+                                <Link to="/"><a href="home.html">Home{menu === "shop" ? <hr/>: <></>}</a></Link>
                             </span>
                             <span onClick={() => setMenu("product_listing")}>
                                 <Link to="/product_listing"><a href="home.html">Categories</a></Link>

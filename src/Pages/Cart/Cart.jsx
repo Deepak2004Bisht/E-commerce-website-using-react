@@ -1,3 +1,4 @@
+/* eslint-disable no-script-url */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/alt-text */
 import React, { useState } from 'react';
@@ -27,7 +28,7 @@ export default function Cart() {
                   <h1 className="breadcrumb-title">Cart</h1>
                   <nav className="breadcrumb-link">
                     <span onClick={() => setMenu("home")}>
-                      <Link to="/"><a href="home.html">Home</a></Link>
+                      <Link to="/"><a href="home.html">Home{menu === "shop" ? <hr/>: <></>}</a></Link>
                     </span>
                     <span>Cart</span>
                   </nav>

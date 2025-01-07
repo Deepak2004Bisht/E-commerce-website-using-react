@@ -26,7 +26,7 @@ export default function Loginorregister() {
                   <h1 className="breadcrumb-title">My Account</h1>
                   <nav className="breadcrumb-link">
                     <span onClick={() => setMenu("home")}>
-                      <Link to="/"><a href="home.html">Home</a></Link>
+                      <Link to="/"><a href="home.html">Home{menu === "shop" ? <hr/>: <></>}</a></Link>
                     </span>
                     <span>My Account</span>
                   </nav>

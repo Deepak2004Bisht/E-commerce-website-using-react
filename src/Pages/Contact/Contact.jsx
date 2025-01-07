@@ -20,7 +20,7 @@ export default function Contact() {
             <h1 className="breadcrumb-title">Contact Us</h1>
             <nav className="breadcrumb-link">
               <span onClick={() => setMenu("home")}>
-                <Link to="/"><a>Home</a></Link>
+                <Link to="/"><a>Home{menu === "shop" ? <hr/>: <></>}</a></Link>
               </span>
               <span>Contact Us</span>
             </nav>

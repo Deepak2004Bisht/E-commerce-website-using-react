@@ -27,7 +27,7 @@ export default function Blog() {
                   <h1 className="breadcrumb-title">Blog List</h1>
                   <nav className="breadcrumb-link">
                     <span onClick={() => setMenu("home")}>
-                      <Link to="/"><a href="home.html">Home</a></Link>
+                      <Link to="/"><a href="home.html">Home{menu === "shop" ? <hr/>: <></>}</a></Link>
                     </span>
                     <span>Blog</span>
                   </nav>

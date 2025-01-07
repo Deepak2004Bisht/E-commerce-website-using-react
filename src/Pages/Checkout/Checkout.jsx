@@ -7,7 +7,7 @@ export default function Checkout() {
   return (
     <>
         <Header/>
-        <div className="page-contaiter">
+        <div className="page-container">
   {/*Breadcrumb*/}
   <section className="breadcrumb">
     <div className="background-image" data-background="img/bg_img/bg_001.jpg" data-bg-posx="center" data-bg-posy="center" data-bg-overlay={4} />
