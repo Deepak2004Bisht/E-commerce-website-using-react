@@ -3,6 +3,10 @@ import React from 'react';
 import Header from "../../Components/Header";
 import Footer from '../../Components/Footer';
 import Section1 from './Section1';
+import Section2 from './Section2';
+import Section3 from './Section3';
+import Section4 from './Section4';
+import Section5 from './Section5';
 
 export default function Home() {
   return (
@@ -26,6 +30,10 @@ export default function Home() {
 
       <div className="page-container">
         <Section1/>
+        <Section2/>
+        <Section3/>
+        <Section4/>
+        <Section5/>
       </div>
 
       <Footer/>

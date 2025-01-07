@@ -3223,6 +3223,7 @@ ul:last-child {
         margin-bottom: 17px;
         overflow: hidden;
         width: 100%;
+        padding: 10px;
     }
 
         .product-item .product-item-img .product-item-img-link {
@@ -3848,6 +3849,12 @@ ul:last-child {
     border-left: 1px solid rgba(0,0,0,0.08);
     border-right: 1px solid rgba(0,0,0,0.08);
     border-bottom: 1px solid rgba(0,0,0,0.08);
+}
+
+@media (max-width: 751px){
+    .blog-item .blog-item-content {
+        padding: 0px;
+    }
 }
 
     .blog-item .blog-item-content .tag {
@@ -6302,4 +6309,17 @@ form .lost_password {
 
 .footer .social a:hover, .footer .links li a:hover, .footer .links li a:hover {
     opacity: 0.7;
+}
+
+
+
+
+
+/*------------------------------------------------------------*/
+/* Customer banner */
+/*------------------------------------------------------------*/
+@media(max-width: 770px){
+    .bg--secondary{
+        display: none;
+    }
 }
