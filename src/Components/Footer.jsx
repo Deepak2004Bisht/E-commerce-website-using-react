@@ -83,7 +83,7 @@ export default function Footer() {
       <div className="container">
         <div className="row">
           <div className="col-md-6 text-center text-md-left">
-            <p className="footer-copyright">© 2018 Mazaar Shop, Template by <a href="http://nileforest.com/" target="_blank" rel="noreferrer">Nileforest</a></p>
+            <p className="footer-copyright">© 2025 Mazaar Shop</p>
           </div>
           <div className="col-md-6 text-center text-md-right">
             <img src="img/payment_logos.png" alt="payment logos" />
