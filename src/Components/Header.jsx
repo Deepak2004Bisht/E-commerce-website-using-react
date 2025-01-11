@@ -301,9 +301,10 @@ export default function Header() {
 
                 <li className="nav-icon-item d-none d-lg-table-cell">
                   <a className="nav-icon-trigger" href="#" title="Whishlist">
-                    <span>
-                      <i className="ti-heart" />
-                      <span className="nav-icon-count">0</span>
+                    <span onClick={() => setMenu("error")}>
+                      <Link to="/error"><i className="ti-heart" />
+                        <span className="nav-icon-count">0</span>
+                      </Link>
                     </span>
                   </a>
                 </li>

@@ -1,9 +1,11 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React from 'react';
+import React, { useState } from 'react';
 import Header from '../Components/Header';
 import Footer from '../Components/Footer';
+import { Link } from 'react-router-dom';
 
 export default function Error() {
+  const [menu, setMenu] = useState("home");
   return (
     <>
         <Header/>
@@ -13,7 +15,7 @@ export default function Error() {
           <div className="container">
             <div className="row">
               <div className="col-md-4 offset-md-4">
-                <div className="error-page text-center">
+                <div className="error-page text-center" onClick={() => setMenu("home")}>
                   <h1>404</h1>
                   <h3>Oops, page not found.</h3>
                   <p className="large">
@@ -28,9 +30,11 @@ export default function Error() {
                                   </button>
                               </form>
                           </div>*/}
-                  <a href="#" className="btn btn--gray space-t--2">
-                    Back to Home
-                  </a>
+                  <Link to="/">
+                    <a href="#" className="btn btn--gray space-t--2">
+                      Back to Home{menu === "home" ? <></>: <></>}
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>

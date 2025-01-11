@@ -151,7 +151,7 @@ export default function Section5() {
                     </div>
                     <div className="blog-item-content">
                         <div className="tag">
-                        <a href="#">Fashion{menu === "blog" ? <hr/>: <></>}</a>
+                        <a href="#">Fashion{menu === "blog" ? <></>: <></>}</a>
                         <a href="#">Cupple</a>
                         </div>
                         <h4 className="blog-title"><a>Effective Ways To Overcome  Man Fashion’s</a></h4>
