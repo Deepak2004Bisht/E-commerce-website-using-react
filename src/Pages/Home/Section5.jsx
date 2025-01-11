@@ -1,11 +1,14 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React from 'react';
+import React, {useState} from 'react';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
+import { Link } from 'react-router-dom';
 
 export default function Section5() {
+    const [menu,setMenu] = useState("home");
+
   return (
     <>
         {/* Customer Review */}
@@ -139,11 +142,11 @@ export default function Section5() {
             <OwlCarousel className='owl-theme' loop items={3} margin={18} nav={false} autoplay={true} autoplayTimeout={3000} dots={false}>
 
                 {/*Item*/}
-                <div className="item">
+                <div className="item" onClick={() => setMenu("blog")}>
                     <div className="blog-item">
                     <div className="blog-item-image">
                         <a href="blog_single.html" className="blog-img-link">
-                            <img src="img/blog_img/001.jpg" alt="blog image" loading="lazy"/>
+                            <Link to="/blog"><img src="img/blog_img/001.jpg" alt="blog image" loading="lazy"/>{menu === "blog" ? <hr/>: <></>}</Link>
                         </a>
                     </div>
                     <div className="blog-item-content">
@@ -161,11 +164,11 @@ export default function Section5() {
                 </div>
                 
                 {/*Item*/}
-                <div className="item">
+                <div className="item" onClick={() => setMenu("blog")}>
                     <div className="blog-item">
                     <div className="blog-item-image">
                         <a href="blog_single.html" className="blog-img-link">
-                        <img src="img/blog_img/002.jpg" alt="blog image" loading="lazy"/>
+                            <Link to="/blog"><img src="img/blog_img/002.jpg" alt="blog image" loading="lazy"/></Link>
                         </a>
                     </div>
                     <div className="blog-item-content">
@@ -182,11 +185,11 @@ export default function Section5() {
                 </div>
 
                 {/*Item*/}
-                <div className="item">
+                <div className="item" onClick={() => setMenu("blog")}>
                     <div className="blog-item">
                     <div className="blog-item-image">
                         <a href="blog_single.html" className="blog-img-link">
-                        <img src="img/blog_img/003.jpg" alt="blog image" loading="lazy"/>
+                            <Link to="/blog"><img src="img/blog_img/003.jpg" alt="blog image" loading="lazy"/></Link>
                         </a>
                     </div>
                     <div className="blog-item-content">
@@ -203,11 +206,11 @@ export default function Section5() {
                 </div>
 
                 {/*Item*/}
-                <div className="item">
+                <div className="item" onClick={() => setMenu("blog")}>
                     <div className="blog-item">
                     <div className="blog-item-image">
                         <a href="blog_single.html" className="blog-img-link">
-                        <img src="img/blog_img/004.jpg" alt="blog image" loading="lazy"/>
+                            <Link to="/blog"><img src="img/blog_img/004.jpg" alt="blog image" loading="lazy"/></Link>
                         </a>
                     </div>
                     <div className="blog-item-content">
@@ -225,11 +228,11 @@ export default function Section5() {
                 </div>
 
                 {/*Item*/}
-                <div className="item">
+                <div className="item" onClick={() => setMenu("blog")}>
                     <div className="blog-item">
                     <div className="blog-item-image">
                         <a href="blog_single.html" className="blog-img-link">
-                        <img src="img/blog_img/005.jpg" alt="blog image" loading="lazy"/>
+                            <Link to="/blog"><img src="img/blog_img/005.jpg" alt="blog image" loading="lazy"/></Link>
                         </a>
                     </div>
                     <div className="blog-item-content">
