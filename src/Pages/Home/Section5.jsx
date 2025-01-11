@@ -146,12 +146,12 @@ export default function Section5() {
                     <div className="blog-item">
                     <div className="blog-item-image">
                         <a className="blog-img-link">
-                            <Link to="/blog"><img src="img/blog_img/001.jpg" alt="blog image" loading="lazy"/>{menu === "blog" ? <hr/>: <></>}</Link>
+                            <Link to="/blog"><img src="img/blog_img/001.jpg" alt="blog image" loading="lazy"/></Link>
                         </a>
                     </div>
                     <div className="blog-item-content">
                         <div className="tag">
-                        <a href="#">Fashion</a>
+                        <a href="#">Fashion{menu === "blog" ? <hr/>: <></>}</a>
                         <a href="#">Cupple</a>
                         </div>
                         <h4 className="blog-title"><a href="blog_single.html">Effective Ways To Overcome  Man Fashion’s</a></h4>
