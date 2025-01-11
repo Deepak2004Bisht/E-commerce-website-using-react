@@ -7,7 +7,7 @@ import 'owl.carousel/dist/assets/owl.theme.default.css';
 import { Link } from 'react-router-dom';
 
 export default function Section5() {
-    const [menu,setMenu] = useState("home");
+    const [menu,setMenu] = useState("blog");
 
   return (
     <>
