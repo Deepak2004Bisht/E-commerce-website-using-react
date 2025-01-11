@@ -154,7 +154,7 @@ export default function Section5() {
                         <a href="#">Fashion{menu === "blog" ? <hr/>: <></>}</a>
                         <a href="#">Cupple</a>
                         </div>
-                        <h4 className="blog-title"><a href="blog_single.html">Effective Ways To Overcome  Man Fashion’s</a></h4>
+                        <h4 className="blog-title"><a>Effective Ways To Overcome  Man Fashion’s</a></h4>
                         <p className="info">
                         <span>by <a href="#">Admin</a></span>
                         <span>23 June 2018</span>
@@ -175,7 +175,7 @@ export default function Section5() {
                         <div className="tag">
                         <a href="#">River</a>
                         </div>
-                        <h4 className="blog-title"><a href="blog_single.html">Summer Kids Collection Launched 2019</a></h4>
+                        <h4 className="blog-title"><a>Summer Kids Collection Launched 2019</a></h4>
                         <p className="info">
                         <span>by <a href="#">Admin</a></span>
                         <span>15 April 2018</span>
@@ -196,7 +196,7 @@ export default function Section5() {
                         <div className="tag">
                         <a href="#">Women</a>
                         </div>
-                        <h4 className="blog-title"><a href="blog_single.html">Huge Saving Limited Offer period</a></h4>
+                        <h4 className="blog-title"><a>Huge Saving Limited Offer period</a></h4>
                         <p className="info">
                         <span>by <a href="#">User</a></span>
                         <span>08 March 2018</span>
@@ -218,7 +218,7 @@ export default function Section5() {
                         <a href="#">Women</a>
                         <a href="#">Car</a>
                         </div>
-                        <h4 className="blog-title"><a href="blog_single.html">Effective Ways To Overcome  Man Fashion’s</a></h4>
+                        <h4 className="blog-title"><a>Effective Ways To Overcome  Man Fashion’s</a></h4>
                         <p className="info">
                         <span>by <a href="#">Admin</a></span>
                         <span>31 January 2018</span>
@@ -239,7 +239,7 @@ export default function Section5() {
                         <div className="tag">
                         <a href="#">Women</a>
                         </div>
-                        <h4 className="blog-title"><a href="blog_single.html">Effective Ways To Overcome  Man Fashion’s</a></h4>
+                        <h4 className="blog-title"><a>Effective Ways To Overcome  Man Fashion’s</a></h4>
                         <p className="info">
                         <span>by <a href="#">Admin</a></span>
                         <span>04 January 2018</span>
