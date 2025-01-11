@@ -145,7 +145,7 @@ export default function Section5() {
                 <div className="item" onClick={() => setMenu("blog")}>
                     <div className="blog-item">
                     <div className="blog-item-image">
-                        <a href="blog_single.html" className="blog-img-link">
+                        <a className="blog-img-link">
                             <Link to="/blog"><img src="img/blog_img/001.jpg" alt="blog image" loading="lazy"/>{menu === "blog" ? <hr/>: <></>}</Link>
                         </a>
                     </div>
@@ -167,7 +167,7 @@ export default function Section5() {
                 <div className="item" onClick={() => setMenu("blog")}>
                     <div className="blog-item">
                     <div className="blog-item-image">
-                        <a href="blog_single.html" className="blog-img-link">
+                        <a className="blog-img-link">
                             <Link to="/blog"><img src="img/blog_img/002.jpg" alt="blog image" loading="lazy"/></Link>
                         </a>
                     </div>
@@ -188,7 +188,7 @@ export default function Section5() {
                 <div className="item" onClick={() => setMenu("blog")}>
                     <div className="blog-item">
                     <div className="blog-item-image">
-                        <a href="blog_single.html" className="blog-img-link">
+                        <a className="blog-img-link">
                             <Link to="/blog"><img src="img/blog_img/003.jpg" alt="blog image" loading="lazy"/></Link>
                         </a>
                     </div>
@@ -209,7 +209,7 @@ export default function Section5() {
                 <div className="item" onClick={() => setMenu("blog")}>
                     <div className="blog-item">
                     <div className="blog-item-image">
-                        <a href="blog_single.html" className="blog-img-link">
+                        <a className="blog-img-link">
                             <Link to="/blog"><img src="img/blog_img/004.jpg" alt="blog image" loading="lazy"/></Link>
                         </a>
                     </div>
@@ -231,7 +231,7 @@ export default function Section5() {
                 <div className="item" onClick={() => setMenu("blog")}>
                     <div className="blog-item">
                     <div className="blog-item-image">
-                        <a href="blog_single.html" className="blog-img-link">
+                        <a className="blog-img-link">
                             <Link to="/blog"><img src="img/blog_img/005.jpg" alt="blog image" loading="lazy"/></Link>
                         </a>
                     </div>
