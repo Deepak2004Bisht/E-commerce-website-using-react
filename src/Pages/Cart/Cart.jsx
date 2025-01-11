@@ -69,7 +69,7 @@ export default function Cart() {
                             </td>
                             <td className="product-thumbnail">
                               <a>
-                                <img src="img/products/01/01.jpg" alt />
+                                <img src="img/products/01/01.jpg" alt loading="lazy"/>
                               </a>
                             </td>
                             <td className="product-name">
@@ -123,7 +123,7 @@ export default function Cart() {
                             </td>
                             <td className="product-thumbnail">
                               <a>
-                                <img src="img/products/02/01.jpg" alt />
+                                <img src="img/products/02/01.jpg" alt loading="lazy"/>
                               </a>
                             </td>
                             <td className="product-name">

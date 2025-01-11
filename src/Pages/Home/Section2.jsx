@@ -19,7 +19,7 @@ export default function Section2() {
                 <div className="categories-item categories-item_1">
                 <div className="categories-image">
                     <a className="categories-img-link">
-                    <img src="img/categories/001.jpg" alt="Women Accessories" />
+                    <img src="img/categories/001.jpg" alt="Women Accessories" loading="lazy"/>
                     </a>
                 </div>
                 <div className="categories-content-overlay">
@@ -33,7 +33,7 @@ export default function Section2() {
                 <div className="categories-item categories-item_1">
                 <div className="categories-image">
                     <a className="categories-img-link">
-                    <img src="img/categories/002.jpg" alt="Women Accessories" />
+                    <img src="img/categories/002.jpg" alt="Women Accessories" loading="lazy"/>
                     </a>
                 </div>
                 <div className="categories-content-overlay">
@@ -47,7 +47,7 @@ export default function Section2() {
                 <div className="categories-item categories-item_1">
                 <div className="categories-image">
                     <a className="categories-img-link">
-                    <img src="img/categories/003.jpg" alt="Women Accessories" />
+                    <img src="img/categories/003.jpg" alt="Women Accessories" loading="lazy"/>
                     </a>
                 </div>
                 <div className="categories-content-overlay">
@@ -61,7 +61,7 @@ export default function Section2() {
                 <div className="categories-item categories-item_1">
                 <div className="categories-image">
                     <a className="categories-img-link">
-                    <img src="img/categories/004.jpg" alt="Women Accessories" />
+                    <img src="img/categories/004.jpg" alt="Women Accessories" loading="lazy"/>
                     </a>
                 </div>
                 <div className="categories-content-overlay">

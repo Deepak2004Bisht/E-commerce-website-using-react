@@ -6,7 +6,7 @@ export default function Section1() {
     const [menu, setMenu] = useState('home')
   return (
     <section className="breadcrumb">
-        <div className="background-image" data-background="img/bg_img/bg_001.jpg" data-bg-posx="center" data-bg-posy="center" data-bg-overlay={4} />
+        <div className="background-image" data-background="img/bg_img/bg_001.jpg" data-bg-posx="center" data-bg-posy="center" data-bg-overlay={4} loading="lazy"/>
             <div className="breadcrumb-content">
                 <div className="container">
                     <div className="row">

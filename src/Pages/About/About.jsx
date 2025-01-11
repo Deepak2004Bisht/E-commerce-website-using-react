@@ -47,7 +47,7 @@ export default function About() {
           </div>
         </div>
         <div className="col-sm-12 col-md-5 col-lg-6">
-          <img src="img/categories/collection_006.jpg" alt />
+          <img src="img/categories/collection_006.jpg" alt loading="lazy"/>
         </div>
       </div>
     </div>
@@ -71,7 +71,7 @@ export default function About() {
             <div className="product-item-img">
               {/*Image*/}
               <a className="product-item-img-link">
-                <img src="img/products/10/01.jpg" alt="Product Item" />
+                <img src="img/products/10/01.jpg" alt="Product Item" loading="lazy"/>
               </a>
               {/*Hover Icons*/}
               <div className="hover-product-icon">
@@ -96,7 +96,7 @@ export default function About() {
             <div className="product-item-img">
               {/*Image*/}
               <a className="product-item-img-link">
-                <img src="img/products/11/01.jpg" alt="Product Item" />
+                <img src="img/products/11/01.jpg" alt="Product Item" loading="lazy"/>
               </a>
               {/*Hover Icons*/}
               <div className="hover-product-icon">
@@ -121,7 +121,7 @@ export default function About() {
             <div className="product-item-img">
               {/*Image*/}
               <a className="product-item-img-link">
-                <img src="img/products/12/01.jpg" alt="Product Item" />
+                <img src="img/products/12/01.jpg" alt="Product Item" loading="lazy"/>
               </a>
               {/*Hover Icons*/}
               <div className="hover-product-icon">
@@ -146,7 +146,7 @@ export default function About() {
             <div className="product-item-img">
               {/*Image*/}
               <a className="product-item-img-link">
-                <img src="img/products/13/01.jpg" alt="Product Item" />
+                <img src="img/products/13/01.jpg" alt="Product Item" loading="lazy"/>
               </a>
               {/*Hover Icons*/}
               <div className="hover-product-icon">

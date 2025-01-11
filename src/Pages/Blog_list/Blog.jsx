@@ -48,7 +48,7 @@ export default function Blog() {
                   <div className="blog-item">
                     <div className="blog-item-image">
                       <a className="blog-img-link">
-                        <img src="img/blog_img/001.jpg" alt="blog image" />
+                        <img src="img/blog_img/001.jpg" alt="blog image" loading="lazy"/>
                       </a>
                     </div>
                     <div className="blog-item-content">
@@ -77,7 +77,7 @@ export default function Blog() {
                   <div className="blog-item">
                     <div className="blog-item-image">
                       <a className="blog-img-link">
-                        <img src="img/blog_img/002.jpg" alt="blog image" />
+                        <img src="img/blog_img/002.jpg" alt="blog image" loading="lazy"/>
                       </a>
                     </div>
                     <div className="blog-item-content">
@@ -109,7 +109,7 @@ export default function Blog() {
                   <div className="blog-item">
                     <div className="blog-item-image">
                       <a className="blog-img-link">
-                        <img src="img/blog_img/003.jpg" alt="blog image" />
+                        <img src="img/blog_img/003.jpg" alt="blog image" loading="lazy"/>
                       </a>
                     </div>
                     <div className="blog-item-content">
@@ -138,7 +138,7 @@ export default function Blog() {
                   <div className="blog-item">
                     <div className="blog-item-image">
                       <a className="blog-img-link">
-                        <img src="img/blog_img/004.jpg" alt="blog image" />
+                        <img src="img/blog_img/004.jpg" alt="blog image" loading="lazy"/>
                       </a>
                     </div>
                     <div className="blog-item-content">
@@ -167,7 +167,7 @@ export default function Blog() {
                   <div className="blog-item">
                     <div className="blog-item-image">
                       <a className="blog-img-link">
-                        <img src="img/blog_img/002.jpg" alt="blog image" />
+                        <img src="img/blog_img/002.jpg" alt="blog image" loading="lazy"/>
                       </a>
                     </div>
                     <div className="blog-item-content">
@@ -196,7 +196,7 @@ export default function Blog() {
                   <div className="blog-item">
                     <div className="blog-item-image">
                       <a className="blog-img-link">
-                        <img src="img/blog_img/005.jpg" alt="blog image" />
+                        <img src="img/blog_img/005.jpg" alt="blog image" loading="lazy"/>
                       </a>
                     </div>
                     <div className="blog-item-content">
@@ -225,7 +225,7 @@ export default function Blog() {
                   <div className="blog-item">
                     <div className="blog-item-image">
                       <a className="blog-img-link">
-                        <img src="img/blog_img/001.jpg" alt="blog image" />
+                        <img src="img/blog_img/001.jpg" alt="blog image" loading="lazy"/>
                       </a>
                     </div>
                     <div className="blog-item-content">

@@ -23,7 +23,7 @@ export default function Section1() {
                     className="product-gallery-image mfp-gallery-popup-link"
                     data-mfp-src="img/products/13/01.jpg"
                   >
-                    <img src={activeimg} alt="mazaar" />
+                    <img src={activeimg} alt="mazaar" loading="lazy"/>
                   </div>
                   {/* <div className="product-gallery-image mfp-gallery-popup-link" data-mfp-src="img/products/13/02.jpg">
                 <img src="img/products/13/02.jpg" alt="mazaar" />
@@ -46,31 +46,31 @@ export default function Section1() {
                     className="product-gallery-image"
                     style={{ padding: "0px 10px 10px 0px" }}
                   >
-                    <img style={{borderBottom:activeimg === "img/products/13/01.jpg" ? '2px solid #27af9a' : ''}} onClick={()=>{setactiveimg('img/products/13/01.jpg')}} src="img/products/13/01.jpg" alt="mazaar" />
+                    <img style={{borderBottom:activeimg === "img/products/13/01.jpg" ? '2px solid #27af9a' : ''}} onClick={()=>{setactiveimg('img/products/13/01.jpg')}} src="img/products/13/01.jpg" alt="mazaar" loading="lazy"/>
                   </a>
                   <a
                     className="product-gallery-image"
                     style={{ padding: "0px 10px 10px 0px" }}
                   >
-                    <img style={{borderBottom:activeimg === "img/products/13/02.jpg" ? '2px solid #27af9a' : ''}} onClick={()=>{setactiveimg('img/products/13/02.jpg')}}  src="img/products/13/02.jpg" alt="mazaar" />
+                    <img style={{borderBottom:activeimg === "img/products/13/02.jpg" ? '2px solid #27af9a' : ''}} onClick={()=>{setactiveimg('img/products/13/02.jpg')}}  src="img/products/13/02.jpg" alt="mazaar" loading="lazy"/>
                   </a>
                   <a
                     className="product-gallery-image"
                     style={{ padding: "0px 10px 10px 0px" }}
                   >
-                    <img style={{borderBottom:activeimg === "img/products/13/03.jpg" ? '2px solid #27af9a' : ''}} onClick={()=>{setactiveimg('img/products/13/03.jpg')}}  src="img/products/13/03.jpg" alt="mazaar" />
+                    <img style={{borderBottom:activeimg === "img/products/13/03.jpg" ? '2px solid #27af9a' : ''}} onClick={()=>{setactiveimg('img/products/13/03.jpg')}}  src="img/products/13/03.jpg" alt="mazaar" loading="lazy"/>
                   </a>
                   <a
                     className="product-gallery-image"
                     style={{ padding: "0px 10px 10px 0px" }}
                   >
-                    <img style={{borderBottom:activeimg === "img/products/13/04.jpg" ? '2px solid #27af9a' : ''}} onClick={()=>{setactiveimg('img/products/13/04.jpg')}}  src="img/products/13/04.jpg" alt="mazaar" />
+                    <img style={{borderBottom:activeimg === "img/products/13/04.jpg" ? '2px solid #27af9a' : ''}} onClick={()=>{setactiveimg('img/products/13/04.jpg')}}  src="img/products/13/04.jpg" alt="mazaar" loading="lazy"/>
                   </a>
                   <a
                     className="product-gallery-image"
                     style={{ padding: "0px 10px 10px 0px" }}
                   >
-                    <img style={{borderBottom:activeimg === "img/products/13/05.jpg" ? '2px solid #27af9a' : ''}} onClick={()=>{setactiveimg('img/products/13/05.jpg')}}  src="img/products/13/05.jpg" alt="mazaar" />
+                    <img style={{borderBottom:activeimg === "img/products/13/05.jpg" ? '2px solid #27af9a' : ''}} onClick={()=>{setactiveimg('img/products/13/05.jpg')}}  src="img/products/13/05.jpg" alt="mazaar" loading="lazy"/>
                   </a>
                 </div>
               </div>
@@ -220,7 +220,7 @@ export default function Section1() {
                         name="size"
                         defaultValue="md"
                       />
-                      Mediam
+                      Medium
                     </label>
                     <label htmlFor="size_lg">
                       <input
@@ -258,7 +258,7 @@ export default function Section1() {
                     Size guide
                   </a>
                 </div>
-                {/*Quantity and Adda to cart*/}
+                {/*Quantity and Add to cart*/}
                 <div className="product-variations-child">
                   <label>Qty</label>
                   <div id="quantity_1234" className="product-quantity">
@@ -318,14 +318,14 @@ export default function Section1() {
               <div className="product-share">
                 <span>Share:</span>
                 <a
-                  href="https://www.facebook.com/sharer/sharer.php?u=http://nileforest.com/"
+                  href="/"
                   target="_blank"
                 >
                   <i className="fa fa-facebook left" aria-hidden="true" />
                   Facebook
                 </a>
                 <a
-                  href="http://twitter.com/share?url=http://nileforest.com/"
+                  href="/"
                   target="_blank"
                 >
                   <i className="fa fa-twitter left" aria-hidden="true" />
@@ -754,7 +754,7 @@ export default function Section1() {
               <div className="product-item-img">
                 {/*Image*/}
                 <a className="product-item-img-link">
-                  <img src="img/products/02/01.jpg" alt="Product Item" />
+                  <img src="img/products/02/01.jpg" alt="Product Item" loading="lazy"/>
                 </a>
                 {/*Add to Link*/}
                 <div className="add-to-link">
@@ -834,7 +834,7 @@ export default function Section1() {
               <div className="product-item-img">
                 {/*Image*/}
                 <a className="product-item-img-link">
-                  <img src="img/products/12/01.jpg" alt="Product Item" />
+                  <img src="img/products/12/01.jpg" alt="Product Item" loading="lazy"/>
                 </a>
                 {/*Add to Link*/}
                 <div className="add-to-link">
@@ -920,7 +920,7 @@ export default function Section1() {
               <div className="product-item-img">
                 {/*Image*/}
                 <a className="product-item-img-link">
-                  <img src="img/products/08/01.jpg" alt="Product Item" />
+                  <img src="img/products/08/01.jpg" alt="Product Item" loading="lazy"/>
                 </a>
                 {/*Add to Link*/}
                 <div className="add-to-link">
@@ -1009,7 +1009,7 @@ export default function Section1() {
               <div className="product-item-img">
                 {/*Image*/}
                 <a className="product-item-img-link">
-                  <img src="img/products/04/01.jpg" alt="Product Item" />
+                  <img src="img/products/04/01.jpg" alt="Product Item" loading="lazy"/>
                 </a>
                 {/*Add to Link*/}
                 <div className="add-to-link">
@@ -1089,7 +1089,7 @@ export default function Section1() {
               <div className="product-item-img">
                 {/*Image*/}
                 <a className="product-item-img-link">
-                  <img src="img/products/05/01.jpg" alt="Product Item" />
+                  <img src="img/products/05/01.jpg" alt="Product Item" loading="lazy"/>
                 </a>
                 {/*Add to Link*/}
                 <div className="add-to-link">
@@ -1169,7 +1169,7 @@ export default function Section1() {
               <div className="product-item-img">
                 {/*Image*/}
                 <a className="product-item-img-link">
-                  <img src="img/products/06/01.jpg" alt="Product Item" />
+                  <img src="img/products/06/01.jpg" alt="Product Item" loading="lazy"/>
                 </a>
                 {/*Add to Link*/}
                 <div className="add-to-link">
@@ -1255,7 +1255,7 @@ export default function Section1() {
               <div className="product-item-img">
                 {/*Image*/}
                 <a className="product-item-img-link">
-                  <img src="img/products/07/01.jpg" alt="Product Item" />
+                  <img src="img/products/07/01.jpg" alt="Product Item" loading="lazy"/>
                 </a>
                 {/*Add to Link*/}
                 <div className="add-to-link">
@@ -1335,7 +1335,7 @@ export default function Section1() {
               <div className="product-item-img">
                 {/*Image*/}
                 <a className="product-item-img-link">
-                  <img src="img/products/08/01.jpg" alt="Product Item" />
+                  <img src="img/products/08/01.jpg" alt="Product Item" loading="lazy"/>
                 </a>
                 {/*Add to Link*/}
                 <div className="add-to-link">

@@ -21,6 +21,7 @@ export default function Section1() {
             data-bg-posx="center"
             data-bg-posy="top"
             data-bg-overlay={0}
+            loading="lazy"
             />
           <div className="container">
             <div className="row">
@@ -41,6 +42,7 @@ export default function Section1() {
           </div>
         </div>
         {/*Item*/}
+
         <div
           className="item section-dark height-9 sm-height-600px"
           data-slide_theme="dark-slide"
@@ -52,6 +54,7 @@ export default function Section1() {
             data-bg-posx="center"
             data-bg-posy="top"
             data-bg-overlay={1}
+            loading="lazy"
           />
           <div className="container">
             <div className="row">
@@ -72,6 +75,7 @@ export default function Section1() {
           </div>
         </div>
         {/*Item*/}
+
         <div className="item height-9 sm-height-600px">
           <div
             className="background-image"
@@ -80,6 +84,7 @@ export default function Section1() {
             data-bg-posx="right"
             data-bg-posy="top"
             data-bg-overlay={0}
+            loading="lazy"
           />
           <div className="container">
             <div className="row">
@@ -100,6 +105,7 @@ export default function Section1() {
           </div>
         </div>
         {/*Item*/}
+        
         <div
           className="item section-dark height-9 sm-height-600px"
           data-slide_theme="dark-slide"
@@ -111,6 +117,7 @@ export default function Section1() {
             data-bg-posx="center"
             data-bg-posy="top"
             data-bg-overlay={6}
+            loading="lazy"
           />
           <div className="container">
             <div className="row">

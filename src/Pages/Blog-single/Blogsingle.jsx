@@ -53,7 +53,7 @@ export default function Blogsingle() {
                   <div className="blog-item">
                     <div className="blog-item-image">
                       <a className="blog-img-link">
-                        <img src="img/blog_img/001.jpg" alt="blog image" />
+                        <img src="img/blog_img/001.jpg" alt="blog image" loading="lazy"/>
                       </a>
                     </div>
                     <div className="blog-item-content">
@@ -119,13 +119,13 @@ export default function Blogsingle() {
                             className="col post-content-gallary mfp-gallery-popup-link"
                             data-mfp-src="img/blog_img/003.jpg"
                           >
-                            <img src="img/blog_img/003.jpg" alt />
+                            <img src="img/blog_img/003.jpg" alt loading="lazy"/>
                           </figure>
                           <figure
                             className="col post-content-gallary mfp-gallery-popup-link"
                             data-mfp-src="img/blog_img/005.jpg"
                           >
-                            <img src="img/blog_img/005.jpg" alt />
+                            <img src="img/blog_img/005.jpg" alt loading="lazy"/>
                           </figure>
                         </div>
                       </div>
@@ -366,7 +366,7 @@ export default function Blogsingle() {
                           {/*Post*/}
                           <li>
                             <a href="#" className="widget-post-thumb">
-                              <img src="img/blog_img/001.jpg" alt="post" />
+                              <img src="img/blog_img/001.jpg" alt="post" loading="lazy"/>
                             </a>
                             <h6>
                               <a href="#">
@@ -383,7 +383,7 @@ export default function Blogsingle() {
                           {/*Post*/}
                           <li>
                             <a href="#" className="widget-post-thumb">
-                              <img src="img/blog_img/003.jpg" alt="post" />
+                              <img src="img/blog_img/003.jpg" alt="post" loading="lazy"/>
                             </a>
                             <h6>
                               <a href="#">How To Wear Dresses Over Pants</a>
@@ -398,7 +398,7 @@ export default function Blogsingle() {
                           {/*Post*/}
                           <li>
                             <a href="#" className="widget-post-thumb">
-                              <img src="img/blog_img/004.jpg" alt="post" />
+                              <img src="img/blog_img/004.jpg" alt="post" loading="lazy"/>
                             </a>
                             <h6>
                               <a href="#">
@@ -451,7 +451,7 @@ export default function Blogsingle() {
                         <a href="#" className="banner-item">
                           <img
                             src="img/banner/widget_banner01.jpg"
-                            alt="banner"
+                            alt="banner" loading="lazy"
                           />
                         </a>
                       </div>

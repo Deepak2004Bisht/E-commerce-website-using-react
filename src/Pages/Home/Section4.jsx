@@ -19,7 +19,7 @@ export default function Section4() {
                 <div className="product-item-img">
                     {/*Image*/}
                     <a className="product-item-img-link">
-                    <img src="img/products/01/01.jpg" alt="Product Item" />
+                    <img src="img/products/01/01.jpg" alt="Product Item" loading="lazy"/>
                     </a>
                     {/*Add to Link*/}
                     <div className="add-to-link">
@@ -66,7 +66,7 @@ export default function Section4() {
                 <div className="product-item-img">
                     {/*Image*/}
                     <a className="product-item-img-link">
-                    <img src="img/products/03/01.jpg" alt="Product Item" />
+                    <img src="img/products/03/01.jpg" alt="Product Item" loading="lazy"/>
                     </a>
                     {/*Add to Link*/}
                     <div className="add-to-link">
@@ -114,7 +114,7 @@ export default function Section4() {
                 <div className="product-item-img">
                     {/*Image*/}
                     <a className="product-item-img-link">
-                    <img src="img/products/09/01.jpg" alt="Product Item" />
+                    <img src="img/products/09/01.jpg" alt="Product Item" loading="lazy"/>
                     </a>
                     {/*Add to Link*/}
                     <div className="add-to-link">
@@ -165,7 +165,7 @@ export default function Section4() {
                 <div className="product-item-img">
                     {/*Image*/}
                     <a className="product-item-img-link">
-                    <img src="img/products/10/01.jpg" alt="Product Item" />
+                    <img src="img/products/10/01.jpg" alt="Product Item" loading="lazy"/>
                     </a>
                     {/*Add to Link*/}
                     <div className="add-to-link">
@@ -208,7 +208,7 @@ export default function Section4() {
                 <div className="product-item-img">
                     {/*Image*/}
                     <a className="product-item-img-link">
-                    <img src="img/products/04/01.jpg" alt="Product Item" />
+                    <img src="img/products/04/01.jpg" alt="Product Item" loading="lazy"/>
                     </a>
                     {/*Add to Link*/}
                     <div className="add-to-link">
@@ -251,7 +251,7 @@ export default function Section4() {
                 <div className="product-item-img">
                     {/*Image*/}
                     <a className="product-item-img-link">
-                    <img src="img/products/12/01.jpg" alt="Product Item" />
+                    <img src="img/products/12/01.jpg" alt="Product Item" loading="lazy"/>
                     </a>
                     {/*Add to Link*/}
                     <div className="add-to-link">
@@ -303,7 +303,7 @@ export default function Section4() {
                 <div className="product-item-img">
                     {/*Image*/}
                     <a className="product-item-img-link">
-                    <img src="img/products/06/01.jpg" alt="Product Item" />
+                    <img src="img/products/06/01.jpg" alt="Product Item" loading="lazy"/>
                     </a>
                     {/*Add to Link*/}
                     <div className="add-to-link">
@@ -346,7 +346,7 @@ export default function Section4() {
                 <div className="product-item-img">
                     {/*Image*/}
                     <a className="product-item-img-link">
-                    <img src="img/products/14/01.jpg" alt="Product Item" />
+                    <img src="img/products/14/01.jpg" alt="Product Item" loading="lazy"/>
                     </a>
                     {/*Add to Link*/}
                     <div className="add-to-link">
