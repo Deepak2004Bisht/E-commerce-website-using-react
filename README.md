@@ -8,7 +8,7 @@ This is an e-commerce website built using React, styled for modern shopping expe
 • Product Categories: Organize items for Men, Women, and more.<br>
 • Cart Functionality: Add, remove, and view items in the cart.<br>
 • Responsive Design: Mobile-friendly layout.<br>
-• Dynamic Search and Filter: Easily find products<br>.
+• Dynamic Search and Filter: Easily find products<br>
 • Checkout: Seamless shopping experience.<br>
 <h2>Feel free to visit the Ecommerce website</h2>
 <h3>Ecommerce website link here:-
